@@ -30,7 +30,9 @@
 		<Unit filename="../CONTENDED/routines.h" />
 		<Unit filename="../CONTENDED/variables.h" />
 		<Unit filename="../CONTENDED/zpragma.inc" />
+		<Unit filename="../OBJECTS/error.bat" />
 		<Unit filename="../OBJECTS/magic.bat" />
+		<Unit filename="../RAM0/externs.h" />
 		<Unit filename="../RAM0/mmap.inc" />
 		<Unit filename="../RAM0/ram0.bat" />
 		<Unit filename="../RAM0/ram0.c">
@@ -39,6 +41,7 @@
 		<Unit filename="../RAM0/ram0.h" />
 		<Unit filename="../RAM0/ram0.lst" />
 		<Unit filename="../RAM0/ram0Z.asm" />
+		<Unit filename="../RAM0/variables.h" />
 		<Unit filename="../RAM0/zpragma.inc" />
 		<Unit filename="../UNCONTENDED/cleanup.bat" />
 		<Unit filename="../UNCONTENDED/externs.h" />
@@ -54,7 +57,7 @@
 		<Unit filename="../UNCONTENDED/variables.h" />
 		<Unit filename="../UNCONTENDED/zpragma.inc" />
 		<Unit filename="../compile.bat" />
-		<Unit filename="../magic/magic.bat" />
+		<Unit filename="../magic/voodoo.bat" />
 		<Unit filename="../notes.txt" />
 		<Unit filename="../utils/loader.bas" />
 		<Unit filename="../utils/temp notes.txt" />
