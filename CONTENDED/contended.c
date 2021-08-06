@@ -8,12 +8,6 @@
 
 
 
-
-#include <arch/zx.h>
-#include <input.h>
-#include <stdlib.h>//standard library
-#include <stdio.h>//standard input output
-
 //we are just putting functions here
 
 #include "externs.h"

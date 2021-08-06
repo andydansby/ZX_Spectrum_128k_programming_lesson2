@@ -1,7 +1,5 @@
 SET PATH=c:\z88dk199c;c:\z88dk199c\bin;c:\z88dk199c\lib\;c:\z88dk199c\lib\clibs;c:\z88dk199c\lib\config
 
-cls
-
 cd codemaps
 	del contended.o
 cd ..
@@ -10,24 +8,12 @@ cd ..
 rem zcc +zx -vn -SO3 -c -clib=new --fsigned-char -pragma-include:zpragma.inc -o contended.o @ramlow.lst
 zcc +zx -vn -SO3 -c -clib=new --fsigned-char -o contended.o @ramlow.lst
 
-
-
-
-
-
-
 if not exist "contended.o" (
 call error.bat
 )
 
 copy "contended.o" "..\"
 move "contended.o" "codemaps\"
-
-
-
-
-
-
 
 @REM Cleanup
 del zcc_opt.def
