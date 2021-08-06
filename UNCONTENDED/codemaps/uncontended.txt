@@ -1,0 +1,28 @@
+Object  file uncontended.o at $0000: Z80RMF12
+  Name: uncontended
+  Section data_compiler: 7 bytes
+  Section code_compiler: 406 bytes
+  Section rodata_compiler: 234 bytes
+  Section bss_compiler: 0 bytes
+  Section code_user: 0 bytes
+  Section rodata_user: 1 bytes
+  Section smc_user: 0 bytes
+  Section data_user: 0 bytes
+  Section bss_user: 0 bytes
+  Symbols:
+    G A $0000 _tom (section data_compiler) (file uncontended.c:17)
+    G A $0001 _dick (section data_compiler) (file uncontended.c:21)
+    G A $0002 _harry (section data_compiler) (file uncontended.c:25)
+    G A $0003 _eve (section data_compiler) (file uncontended.c:29)
+    G A $0005 _bob (section data_compiler) (file uncontended.c:33)
+    G A $0000 _add_two_numbers (section code_compiler) (file uncontended.c:41)
+    G A $0012 _multiply2numbers (section code_compiler) (file uncontended.c:60)
+    G A $0026 _subtract2numbers (section code_compiler) (file uncontended.c:79)
+    G A $003B _main (section code_compiler) (file uncontended.c:98)
+    G A $0000 _xyzzy2 (section rodata_user) (file uncontended.asm:35)
+  Externs:
+    U         l_mult
+    U         zx_cls
+    U         printf
+    U         _Variable_in_contended
+    U         _Variable_in_Bank0
