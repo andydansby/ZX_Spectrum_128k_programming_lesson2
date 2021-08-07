@@ -2,19 +2,18 @@
 
 #include <arch/zx.h>
 #include <stdio.h>//standard input output
-//#include <input.h>
-//#include <stdlib.h>//standard library
 
 #include "variables.h"
-#include "uncontended.h"
 #include "externs.h"
+#include "uncontended.h"
+
 
 void main ()
 {
-    zx_cls(PAPER_WHITE | INK_RED);
+    zx_cls(PAPER_WHITE);
     printf ("Main () running in uncontended\n");
 
-    printf ("_Variable_in_contended = %d\n", Variable_in_contended);//should be 27
+    printf ("_Variable_in_contended = %d\n", Variable_in_contended);
     printf ("_Variable_in_Bank0 = %d\n", Variable_in_Bank0);
 
     printf ("tom = %d\n", tom);
