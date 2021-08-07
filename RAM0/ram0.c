@@ -9,13 +9,10 @@
 //be sure to bank to this slot if you
 //plan on using other banks
 
-#include <arch/zx.h>
-#include <input.h>
-#include <stdlib.h>//standard library
-#include <stdio.h>//standard input output
-
 //we are just putting functions here
 
+#include "externs.h"
+#include "variables.h"
 #include "ram0.h"
 
 // do not have main() here at all since
